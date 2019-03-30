@@ -19,8 +19,8 @@ public class SimpleCalculatorTest {
 	}
 	
 	@Test
-	public void testMultiplication() {
+	public void testDivision() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(2, 2), 4);
+		assertEquals(calc.divide(2, 2), 1);
 	}
 }
