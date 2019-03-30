@@ -12,7 +12,7 @@ public class SimpleCalculator {
 	public int multiply(int a, int b) {
 		return a * b;
 	}
-
+ 
 	public int divide(int a, int b) throws DivideByZeroException {
 		if (b == 0) {
 			throw new DivideByZeroException("Cannot divide by zero");
